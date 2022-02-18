@@ -1,6 +1,6 @@
 {
    "all":{
-      "uri":https://anypoint.mulesoft.com,
+      "uri":"https://anypoint.mulesoft.com",
       "region":"eu-west-1",
       "policies":["client-id-enforcement"]
    },
@@ -10,10 +10,10 @@
       "workerType":"MICRO"
    },
    "test-helloworld":{
-		"businessGroup": (**),
-		"dev":null, //Tomará valores default
+		"businessGroup": "prueba",
+		"dev":null,
 		"int":{
-			  "muleVersion":"4.4.0",          
+			  "muleVersion":"4.4.0"          
 		},
 		"pre":{
 			  "muleVersion":"4.4.0",
