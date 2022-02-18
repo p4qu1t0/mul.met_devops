@@ -1,28 +1,29 @@
 {
-   "all":{
-      "uri":"https://anypoint.mulesoft.com",
-      "region":"eu-west-1",
-      "policies":["client-id-enforcement"]
-   },
-   "default":{
-      "muleVersion":"4.3.0",
-      "workers":"1",
-      "workerType":"MICRO"
-   },
-   "test-helloworld":{
+	"all":{
+		"uri":"https://anypoint.mulesoft.com",
+		"region":"eu-west-1",
+		"policies":["client-id-enforcement"]
+	},
+	"default":{
+		"muleVersion":"4.3.0",
+		"workers":"1",
+		"workerType":"MICRO"
+	},
+	"test-helloworld":{
 		"businessGroup": "prueba",
-		"dev":null,
+		"dev": null,
 		"int":{
-			  "muleVersion":"4.4.0"          
+			"muleVersion":"4.4.0"
+			"excludedPolicies":["client-id-enforcement"]
 		},
 		"pre":{
-			  "muleVersion":"4.4.0",
-			  "workerType":"SMALL"
+			"muleVersion":"4.4.0",
+			"workerType":"SMALL"
 		},
 		"pro":{
-			  "muleVersion":"4.4.0",
-			  "workers":"2",
-			  "workerType":"MEDIUM"
+			"muleVersion":"4.4.0",
+			"workers":"2",
+			"workerType":"MEDIUM"
 		}
     }
 }
