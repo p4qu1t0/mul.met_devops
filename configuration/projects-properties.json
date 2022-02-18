@@ -15,7 +15,7 @@
 			"pre":{"ci":"80457c7708ae4ee8bbb692ff8c0b4185","cs":"9DB61B21d0a1488B86E3eA3774d7Ddf6"},			
 			"pro":{"ci":"38290275ba5748eeb71af4750ab2fc6f","cs":"88709b9fDac94C6CB17Ce698bdA82e91"}
 		},
-		"policies":["client-id-enforcement"]
+		"policies":["client-id-enforcement","prueba"]
 	},
 	"default":{
 		"muleVersion":"4.3.0",
